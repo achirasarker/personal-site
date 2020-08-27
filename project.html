@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Projects</title>
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Bootstrap scripts  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <section>
+
+
+    <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h2 class="project-title">Featured Projects</h2>
+    </div>
+  </div>
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-pause="hover">
+      <ol class="carousel-indicators">
+      <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+      <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+      <li data-target="#testimonial-carousel" data-slide-to="3"></li>
+      <li data-target="#testimonial-carousel" data-slide-to="4"></li>
+    </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Memory Tap</h2>
+          <p>This is a web game that tests a player’s memory by producing a random sequence of colours and sounds that the player must imitate to proceed to the next level, with infinite levels. This is modelled after a popular electronic game called Simon. My brother loves playing it so I turned it into a web game! The algorithm utilizes jQuery.</p>
+          <img class="memory-image move-memory" src="images/memorytap.jpeg" alt="memorytap-jpeg">
+          <br>
+          <button id="button"type="button" name="button"><a href="https://achirasarker.github.io/memory-tap/">PLAY!</a></button>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Mathxml</h2>
+          <p>This is a simple educational math app that leverages coreML, the Vision Framework and MNIST machine learning model. It recognizes the user's handwriting based on the touch drawing to check if their math was correct. Currently, it can only check basic math addition questions.</p>
+          <img class="app-image" src="images/mathxml.jpg" alt="mathxml-jpeg">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Sketchy</h2>
+          <p>When I get bored of studying, I often take out a notepad and start sketching on it, so I thought it would be cool to create a pocket sketch pad on my phone. Sketchy is a sketching app that provides a user with the ability to adjust brush size, clear the canvas, apply filters, and save the drawing to their photo library.</p>
+          <img class="app-image" src="images/sketch.jpeg" alt="sketchy-jpeg">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Lift</h2>
+          <p>Lift is a project that I created two years ago. This is a mechanical elevator that’s connected to an H-Bridge Motor and programmed to change floor based on a user input value. The program is all coded in C. The mechanism uses a pulley system, to relay the user’s input from the computer to produce elevator movement.</p>
+          <img class="oval-image" src="images/lift.jpeg" alt="lift-jpeg">
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">EasyElect</h2>
+          <p>This program gets an input of names from user, ranked in order of preference, then produces the winner of the election. It takes into account the rankings, the overlaps of names and produces a result based on a majority vote.</p>
+          <img class="box-image easyelect" src="images/poll.png" alt="poll-png">
+        </div>
+      </div>
+      <a class="carousel-control-prev controls" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next controls" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+  <div class="bottom-container">
+    <p class="copyright">© 2020 Achira Sarker.</p>
+  </div>
+
+  </body>
+</html>
